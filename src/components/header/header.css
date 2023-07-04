@@ -1,0 +1,42 @@
+.main-header{
+    background-color: white;
+    /* width: 50px; */
+    height: 65px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main-header> img{
+    height: 30px;
+    margin-left: 35px;
+}
+
+@media (max-width: 700px) {
+
+  .above-main-header{
+    /* background-image: url(/public/images/bg2.jpg); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+  }
+    .main-header {
+      margin-top: 60px;
+      /* background-image: url(/public/images/bg2.jpg); */
+      background-color: transparent;
+      width: 100%;
+      justify-content: center;
+      position: fixed;
+      z-index: 999;
+    }
+  
+    .main-header > img {
+      margin-left: 0;
+      height: 40px;
+    }
+    h3{
+      font-size: 27px;
+    }
+
+}

@@ -1,0 +1,151 @@
+.textopia-generating-video-header-below{
+    background-image: url(/public/images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.inside-generating-video-text-area{
+    /* border: 1px solid black; */
+    /* height: 400px; */
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-generating-video-area{
+    /* border: 1px solid red; */
+    /* margin-top: 20px; */
+    /* height: 300px;
+     */
+     height: 80%;
+     width: 60%;
+
+    /* width: 800px; */
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 50px;
+
+}
+
+.generating-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 94%;
+
+}
+.gif-img{
+    width: 152px;
+height: 97px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    
+.inside-generating-video-text-area{
+    height: 80%;
+    width: 100%;
+}
+
+.text-generating-video-area{
+    
+     height: 100%;
+     width: 80%;
+}
+
+.generating-text{
+font-size: 48px;
+}
+.gif-img{
+    width: 252px;
+    height: 197px;
+}
+
+}
+
+@media only screen and (max-width: 550px) {
+    
+    .inside-generating-video-text-area{
+        height: 80%;
+        width: 100%;
+    }
+    
+    .text-generating-video-area{
+        
+         height: 100%;
+         width: 80%;
+    }
+    
+    .generating-text{
+    font-size: 42px;
+    }
+    .gif-img{
+        width: 232px;
+        height: 177px;
+    }
+    
+    }
+
+    @media only screen and (max-width: 550px) {
+    
+        .inside-generating-video-text-area{
+            height: 75%;
+            width: 100%;
+        }
+        
+        .text-generating-video-area{
+            
+             height: 100%;
+             width: 80%;
+        }
+        
+        .generating-text{
+        font-size: 32px;
+        }
+        .gif-img{
+            width: 202px;
+            height: 147px;
+        }
+        
+        }
+
+        @media only screen and (max-width: 350px) {
+    
+            .inside-generating-video-text-area{
+                height: 70%;
+                width: 100%;
+            }
+            
+            .text-generating-video-area{
+                
+                 height: 100%;
+                 width: 80%;
+            }
+            
+            .generating-text{
+            font-size: 27px;
+            }
+            .gif-img{
+                width: 180px;
+                height: 127px;
+            }
+            
+            }
